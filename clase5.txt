@@ -1,0 +1,21 @@
+//----------Orientacion a objetos: CLASE 5--------
+/***
+ * Prototipo: es un objeto. propiedad solo lectura --> "__proto__.(punto) "
+ * Funciones: objetos que pueden ser ejecutados. 
+ * Es de orden superior -> es decir que se puede ejecutar de cualquier lugar 
+ * y se puede pasar como parametro. 
+ * Funcion variadica -> no depende de la cantidad de argumento para su correcta ejecucion,
+ *  es decir, se puede definir con dos argumentos y al momento de usarla se pueden pasar mas parametros. 
+ * Propiedad Argument: da la cantidad de paremetros que se le pasa a la funcion en cuestion.
+ * Ambito de la funcion (scope): alcance de la funcion dentro del progroma.
+ *          Tipos: scope Global:
+ *                 scope Local:
+ *                 scope Closure: espacio de memoria entre una de las variables dentro de funciones
+ *                                dentro de otra funcion. Hace que las variables sean intocables (encapsulamiento)
+ *                                garbage collector -> no pasa al pasar a la funcion interna. 
+ * Contexto de la funcion: referencia al objeto que contiene la funcion. -> "this" -> se siempre un objeto 
+ * (para evitar este contexto que da el this se usa las arrow function)  -> el this es siempre el primer parametro que se le pasa a la funcion(ver ejemplos)
+ * Metodos de procesar los parametros en las funciones cambiando el contexto: bind - call - apply - new  --> averiguar!!!
+ * Funcion constructora(se escribe con mayascula por convencion): se usa con el operador new  
+ * Cadena de prototipo: es una simulacion de herencia, pero se heredan dentro de __proto__ 
+ */
