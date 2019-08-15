@@ -1,0 +1,13 @@
+---------------------------
+base de datos: Json-server
+---------------------------
+
+npm -i -g json-server
+
+json-server --watch db.json --port 8080
+
+-----------
+Paso:  no usar -> jquery, ni eventListener
+-----------
+1) hacer un archivo db.js
+
